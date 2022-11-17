@@ -4,7 +4,7 @@
 #'This \code{summary.ryx} function can summarize the ryx objects for you.
 #'
 #'This is wonderful.
-#'@export NULL
+#'@export
 #'@examples
 #'\dontrun{
 #'summary.ryx(myryx, digits = 3)
