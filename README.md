@@ -6,6 +6,8 @@
 
 The goal of ryx is to help users to learn about the correlation among variables of a data set.
 
+<img src="tools.jpg" width="200" />
+
 ## Installation
 
 You can install the development version of ryx like so:
