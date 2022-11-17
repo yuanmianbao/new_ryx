@@ -1,0 +1,28 @@
+---
+title: "Introduction to ryx"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to ryx}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+The "ryx" pacakge helps user to learn about the correlation among variables of a data set.
+
+The package has one main function for creating type ryx, and three generic functions to print, summary and plot the ryx. 
+
+```{r example}
+library(ryx)
+myryx <- ryx(mtcars, "cyl")
+print.ryx(myryx)
+summary.ryx(myryx)
+plot.ryx(myryx)
+```
+
+
