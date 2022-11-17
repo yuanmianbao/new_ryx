@@ -19,10 +19,6 @@ The package has one main function for creating type ryx, and three generic funct
 
 ```{r example}
 library(ryx)
-myryx <- ryx(mtcars, "cyl")
-print.ryx(myryx)
-summary.ryx(myryx)
-plot.ryx(myryx)
 ```
 
 
