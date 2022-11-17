@@ -5,7 +5,7 @@
 #'
 #'This is wonderful.
 #'@export NULL
-#'#'@examples
+#'@examples
 #'\dontrun{
 #'summary.ryx(myryx, digits = 3)
 #'}
