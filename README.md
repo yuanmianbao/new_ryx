@@ -16,7 +16,7 @@ You can install the development version of ryx like so:
 if(!require(remotes)){
   install.packages("remotes")
 }
-remotes::install_github("yuanmianbao//new_ryx")
+remotes::install_github("yuanmianbao/new_ryx")
 ```
 
 ## Example
