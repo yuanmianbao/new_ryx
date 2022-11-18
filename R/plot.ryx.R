@@ -27,11 +27,11 @@ plot.ryx <- function(x){
          colour = "Direction")+
     xlab("Correlation (absolute value)")+
     ylab("Variables")+
-    scale_x_continuous(breaks=seq(0,1, by=0.1))+
+    scale_x_continuous(limits = c(0,1),breaks= seq(0.0, 1.0, by = 0.1))+
     theme_light()+
     theme(panel.grid.major.y = element_line(linetype = 0),
           panel.grid.major.x = element_line(linetype = 2))+
-    geom_segment(x=0,
+    geom_segment(x=0.0,
                  y = x$df$variable,
                  xend = abs(x$df$r),
                  yend = x$df$variable,
