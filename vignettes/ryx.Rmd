@@ -1,8 +1,8 @@
 ---
-title: "Introduction to ryx"
+title: "Introduction to ryx package"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Introduction to ryx}
+  %\VignetteIndexEntry{Introduction to ryx package}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -19,6 +19,10 @@ The package has one main function for creating type ryx, and three generic funct
 
 ```{r example}
 library(ryx)
+librayr(MASS)
+myryx <- ryx(Boston, y="medv")
+print(myryx)
+plot(myryx)
+summary(myryx)
 ```
-
 
